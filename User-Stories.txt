@@ -1,0 +1,39 @@
+FEATURE: Allow Users to search products by product-related criteria
+Conditional - Multiple buttons that allow sorting and users to filter search criteria
+User Stories:
+As a user, I should be able to sort the products by name, price, ratings, etc.
+As a user, I should be able to limit the number of products shown on my screen by filtering only what I want to see such as products that fit my price range, product category, product-related descriptions, etc.
+
+FEATURE: Clicking a list item should show an independent entry of the item with extra data
+Conditional - All items on the list is clickable and open the correct data page for that item
+User Stories:
+As a user, I should be able to tap on an item on the list and be able to see additional information to help my buying decision.
+
+FEATURE: The shopping cart should be accessible throughout the lifetime of the app
+Conditional - Every screen that the user navigates to should have a way to easily access the shopping cart
+User Stories:
+As a user, I should be able to visit the shopping cart whenever I want to.
+As a user, I should be able to see how many items are in the shopping cart without needing to go into it.
+
+FEATURE: Users should be able to add/remove/modify products to/from/in a shopping cart
+Conditional - Users can add items to shopping cart from any screen
+   - Users can remove products from the shopping cart
+   - Users can modify quantity and product-specific features in the shopping cart
+User Stories:
+As a user, I should be able to add items to the shopping cart when I see it on the screens.
+As a user, I should be able to remove items I don’t want from the shopping cart.
+As a user, I should be able to modify the quantity of the item I want to buy.
+As a user, I should be able to modify the product features to cater to exactly how I want it.
+
+FEATURE: Users can check out the shopping cart
+Conditional - At the shopping cart screen, users can check out their order
+   - If the shopping cart is empty, it should show an empty shopping cart icon and a short message
+User Stories:
+As a user, I should be able to check out the items I want to buy.
+As a user, I should be able to see an empty shopping cart when I haven’t added anything yet.
+
+FEATURE: Users can leave feedback and a rating
+Conditional - Users can leave feedback and can be seen on the expanded item entry page
+User Stories:
+As a user, I should be able to rate and leave feedback about the item I am about to buy.
+As a user, I should be able to see other peoples ratings and feedback about the product.
