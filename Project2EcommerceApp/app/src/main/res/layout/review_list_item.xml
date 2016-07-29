@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/detailReviewListItemCardView"
+    cardView:contentPadding="8dp"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardElevation="4dp"
+    cardView:cardPreventCornerOverlap="true"
+    android:layout_margin="6dp"
+    android:foregroundGravity="center"
+    cardView:cardBackgroundColor="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/detailReviewListItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:layout_marginBottom="4dp"
+            android:layout_toLeftOf="@+id/detailReviewListItemRatingBar"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:text="Cloud Of Darkness"/>
+
+
+        <RatingBar
+            android:id="@+id/detailReviewListItemRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:rating="5"
+            android:isIndicator="true"/>
+
+        <TextView
+            android:id="@+id/detailReviewListItemComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailReviewListItemName"
+            android:gravity="left"
+            android:textColor="@color/pink_A400"
+            android:textSize="14sp"
+            android:text="@string/tm_info_store"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>

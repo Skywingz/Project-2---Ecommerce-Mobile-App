@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupAddReviewRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_border_purple">
+
+    <EditText
+        android:id="@+id/popupAddReviewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:padding="6dp"
+        android:background="@drawable/white_with_corners"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_500"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:maxLength="20"
+        android:hint="Enter your name"/>
+
+    <RatingBar
+        android:id="@+id/popupAddReviewRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/popupAddReviewName"
+        android:gravity="center"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="0"
+        android:isIndicator="false" />
+
+    <EditText
+        android:id="@+id/popupAddReviewComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupAddReviewRatingBar"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:background="@drawable/white_with_corners"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey_500"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:maxLength="120"
+        android:hint="\nAdd a comment\n"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/popupAddReviewLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupAddReviewComment"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/popupAddReviewCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/red_A200"
+            android:gravity="center"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/popupAddReviewRateButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="RATE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_A700"
+            android:gravity="center"
+            android:background="@color/transparent"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

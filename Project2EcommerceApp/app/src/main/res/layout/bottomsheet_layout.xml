@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/sortbyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort By:"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:id="@+id/sortbyRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border_transparent"
+        android:padding="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/sortbyTV">
+
+        <android.support.v4.widget.Space
+            android:id="@+id/sortbySpace"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"/>
+
+
+        <TextView
+            android:id="@+id/sortbyNameBackground"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/sortbySpace"
+            android:background="@drawable/white_border_purple"/>
+
+        <TextView
+            android:id="@+id/sortbyName"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="NAME"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_toLeftOf="@+id/sortbySpace"/>
+
+        <TextView
+            android:id="@+id/sortbyPriceBackground"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/sortbySpace"
+            android:background="@drawable/white_border_purple"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/sortbyPrice"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="PRICE"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/sortbySpace"/>
+
+
+        <TextView
+            android:id="@+id/sortbyAscBackground"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/sortbySpace"
+            android:layout_below="@+id/sortbyName"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/white_border_purple"/>
+
+
+        <TextView
+            android:id="@+id/sortbyAsc"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sortbyName"
+            android:layout_marginTop="8dp"
+            android:text="ASC"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_toLeftOf="@+id/sortbySpace"/>
+
+        <TextView
+            android:id="@+id/sortbyDescBackground"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sortbyName"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/sortbySpace"
+            android:background="@drawable/white_border_purple"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/sortbyDesc"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sortbyName"
+            android:layout_marginTop="8dp"
+            android:text="DESC"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/sortbySpace"/>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/filterTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter:"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/sortbyRelativeLayout"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border_transparent"
+        android:padding="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/filterTV">
+
+        <android.support.v4.widget.Space
+            android:id="@+id/filterSpace"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/filterAll"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Set all to ANY"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:background="@drawable/white_border_blue"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/filterNone"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="NONE"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/white_border_blue"
+            android:layout_toRightOf="@+id/filterSpace"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:id="@+id/toprowCategories"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/filterAll"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Origin"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Role"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Job"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toprowSpinners"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toprowCategories"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/originSpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/roleSpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/jobSpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomrowCategories"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toprowSpinners"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Max Rarity"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Race"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:gravity="center"
+                android:layout_margin="4dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomrowSpinners"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottomrowCategories"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/raritySpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/raceSpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/genderSpinner"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/white_border_black"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

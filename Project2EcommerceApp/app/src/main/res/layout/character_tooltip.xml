@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@drawable/yellow_border_black">
+
+    <TextView
+        android:id="@+id/tooltipRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROLE: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tooltipJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOB: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tooltipRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RACE: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tooltipGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENDER: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tooltipTrustMastery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRUST MASTERY: "
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

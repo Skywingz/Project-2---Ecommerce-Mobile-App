@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="immersive.android.assembly.general.project2ecommerceapp.MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shoppingCartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/shoppingCartBottomToolbarCoordinatorLayout"
+        android:background="@color/green_50"
+        android:padding="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/shoppingCartBottomToolbarCoordinatorLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/shoppingCartBottomToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/shoppingCartBackButtonCardView"
+                    cardView:contentPadding="4dp"
+                    cardView:cardCornerRadius="8dp"
+                    cardView:cardElevation="4dp"
+                    cardView:cardPreventCornerOverlap="true"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:foregroundGravity="center"
+                    cardView:cardBackgroundColor="@android:color/black"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:id="@+id/shoppingCartBackButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/yellow_border_black"/>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/shoppingCartTotalCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/shoppingCartBackButtonCardView"
+                    android:layout_toLeftOf="@+id/shoppingCartShoppingCartButtonCardView"
+                    android:gravity="center"
+                    android:textColor="@color/yellow_500"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:text="$$$"/>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/shoppingCartShoppingCartButtonCardView"
+                    cardView:contentPadding="0dp"
+                    cardView:cardCornerRadius="8dp"
+                    cardView:cardElevation="4dp"
+                    cardView:cardPreventCornerOverlap="true"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    cardView:cardBackgroundColor="@color/yellow_A700">
+
+                    <TextView
+                        android:id="@+id/shoppingCartShoppingCartQuantity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:text="Check Out"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/white"/>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+</RelativeLayout>

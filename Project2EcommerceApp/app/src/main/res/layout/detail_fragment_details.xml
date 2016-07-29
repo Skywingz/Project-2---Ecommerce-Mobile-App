@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/detailDetailsIcon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/yellow_border_bluegreen"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/detailDetailsRarityStars"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/detailDetailsRatingStar1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rarity_star"/>
+
+        <ImageView
+            android:id="@+id/detailDetailsRatingStar2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rarity_star"/>
+
+        <ImageView
+            android:id="@+id/detailDetailsRatingStar3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rarity_star"/>
+
+        <ImageView
+            android:id="@+id/detailDetailsRatingStar4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:layout_marginRight="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rarity_star"/>
+
+        <ImageView
+            android:id="@+id/detailDetailsRatingStar5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rarity_star" />
+
+    </LinearLayout>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/detailDetailsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        cardView:contentPadding="8dp"
+        cardView:cardCornerRadius="8dp"
+        cardView:cardElevation="4dp"
+        cardView:cardPreventCornerOverlap="true"
+        cardView:cardBackgroundColor="@color/light_blue_50">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/characterDetailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/purple_800"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:text="NAME"/>
+
+            <TextView
+                android:id="@+id/characterDetailOriginEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_below="@+id/characterDetailName"
+                android:layout_centerVertical="true"
+                android:textColor="@color/orange_500"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="FF BE"/>
+
+            <TextView
+                android:id="@+id/characterDetailOrigin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/characterDetailName"
+                android:layout_toLeftOf="@+id/characterDetailOriginEntry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="ORIGIN - "/>
+
+            <TextView
+                android:id="@+id/characterDetailRoleEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_below="@+id/characterDetailOrigin"
+                android:layout_centerVertical="true"
+                android:textColor="@color/orange_500"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Tank, Physical Damage"/>
+
+            <TextView
+                android:id="@+id/characterDetailRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/characterDetailOrigin"
+                android:layout_toRightOf="@+id/characterDetailRoleEntry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text=" - ROLE"/>
+
+            <TextView
+                android:id="@+id/characterDetailJobEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_below="@+id/characterDetailRole"
+                android:layout_centerVertical="true"
+                android:textColor="@color/orange_500"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Demi-God"/>
+
+            <TextView
+                android:id="@+id/characterDetailJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/characterDetailRole"
+                android:layout_toLeftOf="@+id/characterDetailJobEntry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="JOB - "/>
+
+            <TextView
+                android:id="@+id/characterDetailRaceEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_below="@+id/characterDetailJob"
+                android:layout_centerVertical="true"
+                android:textColor="@color/orange_500"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Human"/>
+
+            <TextView
+                android:id="@+id/characterDetailRace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/characterDetailJob"
+                android:layout_toRightOf="@+id/characterDetailRaceEntry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text=" - RACE"/>
+
+            <TextView
+                android:id="@+id/characterDetailGenderEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_below="@+id/characterDetailRace"
+                android:layout_centerVertical="true"
+                android:textColor="@color/orange_500"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Female"/>
+
+            <TextView
+                android:id="@+id/characterDetailGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/characterDetailRace"
+                android:layout_toLeftOf="@+id/characterDetailGenderEntry"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="GENDER - "/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/detailDetailsTrustMastery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        cardView:contentPadding="8dp"
+        cardView:cardCornerRadius="8dp"
+        cardView:cardElevation="4dp"
+        cardView:cardPreventCornerOverlap="true"
+        cardView:cardBackgroundColor="@color/light_blue_50">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/characterDetailTrustMasteryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/blue_800"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="TRUST MASTERY"/>
+
+        <ImageView
+            android:id="@+id/characterDetailTrustMasteryIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerInside"
+            android:layout_below="@+id/characterDetailTrustMasteryTitle"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/yellow_border_black"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/characterDetailTrustMasteryName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/characterDetailTrustMasteryTitle"
+            android:layout_toRightOf="@+id/characterDetailTrustMasteryIcon"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="left|center_vertical"
+            android:text="Store"/>
+
+        <TextView
+            android:id="@+id/characterDetailTrustMasteryDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterDetailTrustMasteryName"
+            android:layout_toRightOf="@+id/characterDetailTrustMasteryIcon"
+            android:textColor="@color/orange_500"
+            android:textSize="14sp"
+            android:gravity="left|center_vertical"
+            android:text="@string/tm_info_store"/>
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+
+</ScrollView>

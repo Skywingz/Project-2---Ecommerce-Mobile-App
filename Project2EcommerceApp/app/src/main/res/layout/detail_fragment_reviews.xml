@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/detailReviewToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:elevation="4dp"
+        app:layout_collapseMode="pin"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/detailReviewRatingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:text="Rating:"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/detailReviewRating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/detailReviewRatingTitle"
+                android:gravity="center"
+                android:text="5.0"
+                android:textStyle="bold"
+                android:textSize="36sp"
+                android:textColor="@color/yellow_500"/>
+
+            <TextView
+                android:id="@+id/detailReviewTotalReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/detailReviewRatingReviewsTitle"
+                android:gravity="center"
+                android:text="3"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/cyan_200"/>
+
+            <TextView
+                android:id="@+id/detailReviewRatingReviewsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:text="reviews"
+                android:textSize="16sp"
+                android:textColor="@color/grey_300"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/detailReviewRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/detailReviewToolbar"
+        android:background="@android:color/white"
+        android:padding="6dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/detailReviewFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/message_icon" />
+
+
+</RelativeLayout>

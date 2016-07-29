@@ -1,0 +1,255 @@
+<resources>
+
+    <string name="app_name">Project2EcommerceApp</string>
+
+    <string name="anastasis_story">A holy man from the distant world of Ivalice. When visited by Ashe, a princess of Dalmasca, a land since ruthlessly conquered by the Archadian Empire, who now seeks the power to rebuild her former kingdom, he perceives the desire for revenge in her heart and issues a stern warning. It is said that it is he who once imprisoned the great wyrm Fafnir.</string>
+    <string name="anzelm_story">A warrior versed in both magic and swordplay, Anzelm\'s dual talents allowed him to fight effectively on his own, which is perhaps one reason why he chose to spend his life as a wanderer, free of attachments. He was considered a hero by the people he had saved, though he was too humble to care for such titles. Today, his vision fights as he once did, unfettered by obligation or convention.</string>
+    <string name="artemios_story">A man who dedicated his life to hunting. Artemios was a lowly peasant whose propensity for the hunt was such that he developed extraordinary skill, to the point that people wished to engage him as an assassin. Word has it that the change to human targets inspired no doubts in him, nor any special mercy for this new quarry.</string>
+    <string name="bartz_story">A young man who appears in tales from another world, where he was involved in the war of the Crystals. During his journeys to protect the Crystals, he learns of the existence of Exdeath, an ancient warlock seeking to lead the world to destruction. More astoundingly, he learns that his late father was one of the four Warriors of Dawn who had previously sealed away Exdeath and saved the world. Following in his father\'s footsteps, he sets out to unseal the Legendary Weapons and defeat Exdeath within the Interdimensional Rift.</string>
+    <string name="baurg_story">A monk who sought only strength of body and mind until the war from which he had sworn to isolate himself threatened the village he once called home. Baurg\'s inability to save his people even after his years of training left him to die with a heart full of regrets. As a vision, he now seeks to use the power of his fists and strong will to fight for what is fair and just.</string>
+    <string name="bedile_story">A warrior who mastered sorcery and the sword. Bedile broke the vow of silence that granted him heightened spiritual powers, and was banished from his home after breaking his tribe\'s law against mingling with outsiders. He eventually took his foreign love as his wife, and protected the family they had built together till the end of his days.</string>
+    <string name="biggs_story">A soldier of the Gestahlian Empire whose story is told in a tale of espers and humans. Together with his comrade Wedge and a mysterious girl named Terra possessed of prodigious magical powers, he embarks on a mission to the mining town of Narshe in search of a frozen esper. The band withstands resistance from the Narshe town guard, and Ymir, a monster dwelling in the mines, to finally arrive at the resting place of the esper Valigarmanda. In an instant, however, they are bathed in unholy light and whisked away, never to be seen again.</string>
+    <string name="carrie_story">Hailing from the town that eventually became the industrial city Dilmagia, Carry was once an inventor of weapons. Falling into depression after her creations were used in warfare, she burned her blueprints and dedicated the rest of her life to peaceful science. Her philosophy is one reason why Dilmagia is now a neutral region.</string>
+    <string name="cecil_story">A knight who appears in the tales of a blue planet watched over by two moons. While journeying to protect the Crystals from the sorcerer Golbez, he experiences betrayal from his closest friend, the forging of new friendships, and the pain of final farewells. He grows stronger throughout these trials, even after the shock of learning his true identity as a descendant of the Lunarians and the brother of none other than Golbez himself. With the support of his allies, who have shared so many joys and pains with him, he commits himself fully to the battle for the future of the Blue Planet.</string>
+    <string name="celes_story">A general from another world who had a role to play in the war against the espers. She was implanted with artificial magic by the Gestahlian Empire, and raised to be an unstoppable weapon - her skill with a blade equal to her skill with magic. Unable to tolerate the cruel methods of her emperor, she rebels and begins instead to work alongside the Returners, a rebel group opposing the empire. Her hard military nature means she has difficulty letting others see her emotions, but her new allies gradually help her to accept and embrace her own feelings.</string>
+    <string name="cerius_story">A green mage raised to be a master of supportive magic. Originally an orphan raised as asset to the war, Cerius eventually fled her homeland to live out her life as a hunter of monsters. Many had grown to rely on Cerius until her homeland caught word of her whereabouts and had her assassinated, masking it under natural causes. Her grief has brought her back to this world as a vision.</string>
+    <string name="chizuru_story">A katana-wielding samurai of great strength who served her master with undying loyalty by cultivating both body and spirit. After Chizuru retired from her duties, she married a ninja in the service of her lord and master, giving birth to both a son and a daughter. Sadly, due to strife within her clan, she lost her daughter to the shadows, filling her with grief until the end of her days.</string>
+    <string name="cloudofdarkness_story">A being of destruction, hailing from another world where tales are passed down of the Crystals and Warriors of Light. It lives in the hope of returning all the world to nothingness, and is said to appear when the balance between light and dark is upset. When the wizard Xande floods the world with darkness, it awakens from its thousand-year-long sleep and strikes down the Warriors of Light who oppose it. But the Warriors of Dark sacrifice themselves to weaken it, giving the Warriors of Light one last chance to take on the Cloud of Darkness and defeat it once more.</string>
+    <string name="clyne_story">A knight who became king of a great nation. Clyne was a hero who earned the admiration and loyalty of his people, but had little knowledge about how to rule them, and was eventually killed by his own son in a conspiracy for succession. He died with a deep sense of regret, but his spirit now enjoys the freedom of fighting as a vision.</string>
+    <string name="cyan_story">A great warrior spoken of in another world, where he played a role in the great conflict between humankind and espers. He is a samurai, living a life of honor and bowing only to the ancient traditions of his culture. Through the cruel machinations of Kefka, the Gestahlian Empire\'s court mage, he lost both family and kingdom, which led him to join the rebel forces of the Returners, though even this new alliance cannot ease the regret he bears for failing to protect his family and his king. This darkness in his heart allows him to be plagued by demons, but with the aid of real friends he finally comes to terms with the past, becoming a true warrior at last.</string>
+    <string name="duane_story">A knight who wields a blade of dark power. Though Duane can control his prodigious powers as a vision now, the jealousy and malice he endured from his comrades while he was still alive has left his mind scarred. Once pure of heart and mind, his grief grew to such an extent that he eventually took his own life. His spirit now wanders the world as a vision seeking to make amends.</string>
+    <string name="edgar_story">A young man whose story is sung in a tale of espers and humans, from a distant world. King of the desert nation of Figaro, he is famed throughout the realm as a brilliant engineer and an equally shameless flirt. While maintaining a surface alliance with the Gestahlian Empire to protect his people, he secretly works with the Returners, awaiting the perfect moment to strike back at the evil regime. Upon encountering the young Terra and her prodigious magical powers, his battle with the Empire begins in earnest.</string>
+    <string name="eldin_story">A noble thief who led a band of ruffians. Eldin and his thieves stole from the rich and shared their plunder with the masses. His dream was to live in a world with equality for everyone, where no social classes divided the people. Though he was tragically assassinated before his dream could be realized, his vision now lives on to carry out his will.</string>
+    <string name="exdeath_story">A warlock who hails from a world where the Crystals shine with light and who claimed for himself the power of the Void. He is a creature born from countless malevolent souls, which gathered and took root in a single tree. By bringing together two previously-separated worlds, he seized the power of the Void. With it, he began wiping towns and villages from the map. But in the end, even Exdeath himself is consumed by the Void\'s massive power, losing himself and becoming Neo Exdeath. As Neo Exdeath, he desires the utter destruction of everything: all memory, all life, all worlds, and even himself. He is struck down by Bartz and his allies.</string>
+    <string name="fina_story">A young girl who emerged from an earth crystal, whose mysterious identity seems to tie her to the origins of the world. Pure of heart, Fina\'s possesses an innocent nature and an insatiable curiosity about her surroundings. Her childlike behavior, in part a product of her memory loss, may also stem from here original personality.</string>
+    <string name="firion_story">A young man who appears in tales from a distant world, where he features in a story of an empire and the rebellion against it. To defeat the Palamecian Empire, which destroyed his homeland, he joins the rebel army led by Fynn\'s own Princess Hilda. His friend and adopted brother Leon also survived the fall of Fynn, but now stands against him as a key member of the Palamecian army. Firion loses many allies, including the White Wizard Minwu, and is toyed with continually by cruel fate, but never do his eyes stray from his goal: to put a stop to the Emperor of Palamecia.</string>
+    <string name="fran_story">A storied warrior of the viera, a rabbit-eared race hailing from the distant world of Ivalice. She is the fast friend and loyal comrade of Balthier, the cocky and cunning sky pirate who claims to pilot the fastest vessel in the world. Possessed of deep knowledge of history and tradition, the heightened sensitivity to Mist unique to her kind, and expert skill with airship technology, she proves an impressive ally to Ashe and her companions.</string>
+    <string name="galuf_story">An old warrior from another world who appears in the tales of the Crystals. He was the king of Bal in the Second World, and one of the Warriors of Dawn who formerly sealed away Exdeath. Unable to defeat Exdeath in a contest of strength, the Warriors had little choice but to seal him in the First World. Galuf has been haunted ever since by the fear that he left another world infected with the seeds of destruction. His love for peace and for his comrades is beyond compare, and inspires him to take on Exdeath in one-on-one combat, in order to save Bartz and the other Warriors of Light in the Great Forest of Moore.</string>
+    <string name="garland_story">A terrible creature who was once a knight from another world. He kidnapped the princess of his kingdom, Princess Sarah, and barricaded himself and the princess in the Chaos Shrine, until he was eventually struck down by the Warriors of Light. But instead of meeting death\'s final embrace, Garland was pulled back in time to be reborn, two thousand years in the past, as the being known as Chaos. To maintain his immortal existence, he sends the four fiends-one for each of the elements: wind, water, earth and fire-into the future, to appear every two centuries to drain power from the Crystals and bring eternity within his grasp.</string>
+    <string name="gilbert_story">A bard who sung the truths of the world to the masses in his lyrics, seeking to rescue them from tyranny with knowledge, not the sword. Although despots put a violent end to his enlightenment of the masses, the last breath he took was a song that filled his beloved common folk with the will to stand up to their oppressors.</string>
+    <string name="gimlee_story">A hunter belonging to a tribe which once inhabited lands now belonging to the Grandshelt Kingdom. Gimlee lost many of his comrades to the war against the current ruling kingdom and its ability to manipulate the crystals. Unable to come to terms with the loss of his friends and his homeland, he tragically took his own life. His will now lives on as a vision, ironically fighting alongside the knights of the very monarchy he once so despised.</string>
+    <string name="golbez_story">A mage from a different world who tried to destroy a certain blue planet with two moons. He is in fact Cecil\'s elder brother, and was being controlled by an evil Lunarian named Zemus, who directed him to destroy the crystals. After a long struggle, Golbez finally regained control of his mind and chose to join his brother in the fight against Zemus. With the aide of their uncle, Fusoya, he defeats their enemy - only to be faced with Zeromus, an evil fouler monster birthed from Zemus\' remains. Struck down by Zeromus\'s darkness, Golbez must entrust the final battle to his brother, Cecil.</string>
+    <string name="hayate_story">A legitimate successor of the arts of the ninja, and a peerless assassin and spy. Hayate\'s mother was a katana-wielding samurai of grave demeanor, a personality he inherited. The feelings of jealousy he harbored against his younger sister, an expert swordswoman adept with dual blades, gradually drove her towards the darkness, eventually causing her to flee from their master\'s domain.</string>
+    <string name="kain_story">A young man from a distant world where two moons rise in the sky, his pride and honor as one of the elite dragoon\'s make it difficult for him to unguard his inner self. Despite his deep affection for Rosa, he concealed his feelings upon realizing it was Cecil she truly loved. His emotions manipulated by Golbez, he reappears before his friend - now as a formidable foe. After rediscovering his true self, he joins Cecil in his quest, seeking to atone for his sins.</string>
+    <string name="kefka_story">A mage from another world where magic and espers once lived. He served the Gestahlian Empire, but his mind is twisted and warped. He hunts the espers to harvest magicite from them, and his lust for power explodes as it goes unchecked by those around him. He betrays his own emperor without a second thought, then lets the Warring Triad run wild. Amid the chaos, he is reborn as a god of destruction who wants nothing more than to see the world burn.</string>
+    <string name="kenyu_story">A martial artist who wandered from town to town challenging others to hand-to-hand combat. He was the creator of the martial art of karate, which emphasized style and civility. Keniu\'s choice to defend the weak worried some unscrupulous authorities, who eventually made sure that he met a violent death.</string>
+    <string name="kinggiott_story">King of the Dwarves in a faraway land where two moons rise in the sky, he rules the Underworld with a steady hand and dotes endlessly on his daughter Luca. He leads his prized tank battalion in an endeavor to protect the Crystal from Golbez and the Red Wings, but the battle proves a trying one. United with Cecil and his friends by a common goal, he spares no effort in lending the heroes his aid.</string>
+    <string name="krile_story">A young girl whose story is told in a tale of crystals, from another world. Princess of Bal in the Second World and granddaughter to Galuf, she loses her last remaining blood relative when her grandfather falls in battle to Exdeath. Though grieving his loss, she seems to inherit his power and his purpose, joining Bartz and his friends on their quest. With her curious ability to converse with wind drakes, moogles and other creatures, she proves an invaluable ally to her companions.</string>
+    <string name="kuja_story">A beautiful and cruel angel of death who sought to destroy the world of Gaia from the inside out. He is a Genome, an artificial life that should not have independent will - and yet he does. Despite this "flaw", he is ordered by Garland to throw Gaia into chaos and help their home world absorb it. He plots to betray Garland, who sees him as no more than a tool to be used. But he falls into a spiral of despair when he learns that his lifespan is nearly spent and becomes self-destructive, intending to take the entire world down with him.</string>
+    <string name="lasswell_story">A knight of the Kingdom of Grandshelt whose talents earned him command of an airship alongside Rain. Lasswell is a tireless worker who is entirely devoted to his duties and training. He holds the utmost respect for Rain\'s father, Sir Raegen, once a prominent knight of Grandshelt himself. Lasswell lends his strength to Rain as a way to honor the memory of his hero, while struggling with the knowledge that this prestigious lineage is not his own.</string>
+    <string name="leah_story">A white mage who healed the wounded - friend and foe alike - during the war for the crystals. Leah wished to save all those in pain, and the gratitude in the hearts of those she treated remained strong long after her death. As a vision, she continues to use her powers to ease the suffering world of its pain.</string>
+    <string name="leo_story">A general in the Gestahlian Empire who appears in tales from another world. There he played a role in the great conflict between humankind and espers. His integrity and code of honor win him respect from enemies and allies alike. He travels to Thamasa with Terra, Locke, and the others, to try to establish a peace with the espers who have appeared from the esper world. Furious at the cruelty of Kefka, who strikes out at esper after esper to reap magicite from them, he challenges the mage to battle. But Kefka resorts to his usual dirty tricks, and the mighty general Leo falls for the last time.</string>
+    <string name="liza_story">A beautiful bard who earned her keep traveling the world, singing of legendary beasts and the heroes who vanquished them. Liza fell into deep despair after losing her voice to the curse of a vengeful creature from one of her songs, and cast her life away by drowning herself in a lake. Though she died full of regrets, as a vision she can once again sing to her heart\'s content.</string>
+    <string name="locke_story">A treasure-hunting young man who appears in tales from another world, where he played a role in the great conflict between humankind and espers. He fought the Gestahlian Empire as a member of the resistance ground known as the Returners. Unable to escape the guilt of failing to save his lover in the past, he searched for the legendary esper Phoenix, said to be able to revive the dead. This deep remorse is the real reason he cannot leave the side of any woman he meets who is in trouble. But meeting Celes begins to inspire a change in Locke\'s broken heart.</string>
+    <string name="luna_story">A forest girl once believed to be a wood spirit who fought with a bow. Luna\'s mysticism was alluring, and though her pure heart feared what lay beyond the forest, she was equally as curious about the human world. Having spent her whole life in the woods, her spirit now travels the globe as a vision, finally free to indulge her unbounded curiosity.</string>
+    <string name="magitekarmorterra_story">A woman who appears in tales from another world, where she played a role in the great conflict between humankind and espers. She was born possessing magic and used as a tool of destruction by the Gestahlian Empire, which sought to conquer the entire world. The empire stole from her both her freedom and her emotions. She is powerful enough to destroy fifty of the empire\'s Magitek soldiers in mere minutes. But her future is forever altered when she meets an esper enclosed in ice in a small mining town.</string>
+    <string name="maria_story">A young lady who appears in a tale of rebels and empires, in a far-flung world. Driven from her homeland after a strike by the Palamecian Empire, she joins the rebellion alongside her childhood friends Firion and Guy. She worries deeply for the fate of her lost brother, and is devastated when he reemerges before her as the evil emperor\'s Dark Knight. Though strong of spirit, she is profoundly affected by the death and suffering around her, and wishes nothing more than to regain the peace she once knew.</string>
+    <string name="maxell_story">A gunman from the age of pioneers who protected explorers from roving beasts and ruffians. Maxell ventured into a den of thieves to protect his comrades, but was outnumbered and overwhelmed, ultimately paying with his life. His desire to serve as the shield of the weak and vulnerable now lives on as a vision which defends others.</string>
+    <string name="medius_story">An inventor of guns and an evangelist of his time. Medius was a hero among his people who he equipped against beasts and ruffians. However, the authorities viewed him as a threat, and his life ended in a hail of bullets from his own creations. As a vision, Medius\'s love for his people lives on.</string>
+    <string name="mel_story">A girl who fought with a host of self-made potions and salves. After losing her family to an epidemic, the once-shy Mel began learning about medicine and illnesses from an alchemist. When a new sickness eventually appeared, she used hew own body to test the antibiotics she had developed to fight it, giving her life in the process. Mel\'s antidote would ultimately save the lives of countless people.</string>
+    <string name="miyuki_story">The pinnacle of stealth, clad in a dark aura. Miyuki\'s sword speaks louder than she, exuding a murderous ambience. Nothing is known about her formal life, but her eyes betray a tragic absence of anything resembling peace or happiness.</string>
+    <string name="mizell_story">A green mage who specialized in supportive magic. As an orphan, Mizell was adopted and educated in magic as part of his nation\'s war strategy. His emotional detachment kept him calm and collected, but prevented him from grasping the real value of human life, even after saving countless soldiers on the battlefield. Curiously enough, he ultimately died by sacrificing himself, though it is rumored that he did not shed a single tear.</string>
+    <string name="montana_story">An adventurer who traveled the world seeking hidden relics and forbidden treasures. Montana held a certain stature in the archaeologist community and kept his loot meticulously catalogued. However, upon his death his lifetime collection of cultural assets also vanished, and he became the subject of legends.</string>
+    <string name="ollie_story">A clan of pirates once terrorized the waters of this world. Legends speak mostly of the leader\'s violent side. However, Ollie is also recognized for his achievements as a vessel for cultural exchange, for nobody was as well-traveled as he. Ollie himself was only interested in wielding power over others.</string>
+    <string name="paul_story">An elusive thief who appears in a tale of empires and rebels, told in a faraway world. An honorable type who boasts that the Empire holds no ill-gotten treasure he cannot reappropriate, he won fame for infiltrating the nigh-impregnable Castle Palamecia. Sometimes saving, sometimes being saved by Firion and his fellow rebels, he provides them with valuable weapons and information after the liberation of his hometown of Fynn.</string>
+    <string name="paula_story">A young girl who began studying magic in order to overcome her shyness. However, as she evolved into a black mage with powers superior to her master\'s, she found it even more difficult to relate to others. As a result, she is overzealous in combat, that she might prove herself worthy to others on the battlefield.</string>
+    <string name="penelo_story">A young lady sung of in tales of the far-off world of Ivalice. Orphaned after the war, she was taken in and raised with her childhood friend Vaan, the two remaining inseparable until Vaan is caught consorting with pirates in the palace and led away in chains. Penelo is subsequently kidnapped by the ruthless bounty hunter Ba\'Gamnan, but the friends are eventually reunited, once again becoming close companions on their quest. Penelo warmly watched over her friend as he grows from his experiences.</string>
+    <string name="rain_story">A knight of the Kingdom of Grandshelt, he and his friend Lasswell are considered two of the most formidable knights to grace the Royal Guard since Rain\'s father Sir Raegan. Though he harbors conflicted feelings toward his father for having abandoned him and his family, he keeps this to himself when in the presence of Lasswell, who still deeply respects his father.</string>
+    <string name="rakshasa_story">A mystic knight veiled in secrets who worked from the shadows as a sellsword. One day, in the midst of one of the countless battles that broke out in that war-torn age, she disappeared, along with the great fortune she had made by her exploits in battle. Some claim that her true identity was that of a servant of the gods, who worked in secret to earn the coin needed to save her temple and fellow worshipers, who served a goddess of magic and war.</string>
+    <string name="rizer_story">A warrior who once protected Grandshelt. Rizer fought until the very end to protect his homeland from an invading army that sought to claim its crystal. Now he fights to defend the cause of whoever summons him forth, the unwavering will he possessed when he lived still burning strong even after he became but a vision.</string>
+    <string name="ronaldo_story">A warrior who excelled in both magic and swordsmanship. Ronaldo\'s small nation strictly prohibited contact with others, which allowed him to focus solely on heightening the spiritual power required to master these dual arts. Though he dedicated his life to protecting his people, the strong curiosity he secretly felt for the outside world has brought him back as a vision.</string>
+    <string name="roselia_story">A white mage born from the land that would come to be known as Mysidia. Due to her father\'s influence, she never developed a healer\'s compassion and was interested only in research for research\'s sake. She realized this too late as she succumbed to a plague that ravaged her homeland, her bitter regret bringing her back as a vision.</string>
+    <string name="russell_story">A gladiator who fought others to the death to amuse his rich master. Bought and raised only to fight, Russel knew little of human emotions or the value of life. Now as a vision his only goal is to defeat the opponents who stand before him.</string>
+    <string name="rydia_story">A young summoner girl who hails from a distant world where two moons rise in the sky. Pure and true of heart, she suffers a tragedy when her home, the village of Mist, is burned to the ground by order of the king of Baron, who feared the power of the Eidolons. She joins Cecil and his companions on their journey, but is thought to be lost when swallowed by the great Leviathan. Later she returns from the Feymarch, home of the Eidolons, as a woman grown, lending her prodigious powers to her former companions as they face their greatest challenge.</string>
+    <string name="sabin_story">A youth whose story is sung in a tale of espers end humans, told in a distant world. Twin brother to Edgar, prince of Figaro, he left his homeland behind amidst the struggle for succession after the death of their father the king. Greatful to his brother for allowing him his freedom, he devoted himself to training in the martial arts, hoping to gain the strength needed to protect Edgar from further harm. Possessing a strong sense of justice that does not waver even after the world falls into ruin, he reunites with his lost teacher Duncan and masters his ultimate technique: the Phantom Rush.</string>
+    <string name="sarah_story">A princess from the far-off world of Corneria, whose story is sung in a tale of the Warriors of Light. Beautiful and kind, she is beloved by all in the realm. Her kidnapping and imprisonment at the hands of the fallen knight Garland devastated the kingdom, but she is rescued by the Warriors of Light. She entrusts to the heroes her magic lute, which grants them passage to their final confrontation with Chaos, and the end of their long journey.</string>
+    <string name="sarai_story">Long ago, there was a dancer who performed at a palace in the middle of a desert. Her dancing inspired bravery in her audience, which included all ranks of society. This eventually became her downfall, when an overzealous nobleman abducted her. Unable to perform for the masses while in captivity, she died of a broken heart.</string>
+    <string name="shadow_story">A lethal assassin from a tale of espers and humans, told in a distant world. Once a famed train robber, he lost the will to live after leaving his wounded friend and cohort Baram to die after their greatest heist. Wandering the realm in search of a place to die, his repeated meetings and partings with Locke and his friends rekindle in the depths of his heart the faintest feelings of friendship. In truth, he is father to Relm of Thamasa Village, a secret he takes to his grave.</string>
+    <string name="shantotto_story">A formidable black mage from the distant world of Vana\'diel. One of the most brilliant minds in Windurst, she serves as a professor of magical arts in and heads the Orastery, the republic\'s Department of Magic. Known for being "as high-and-mighty as Yutungah\'s fiery mountain, and as rough-cut as the rocking Gustaberg Ranges-wanges", she is a veritable force of nature who wreaks havoc on both friends and foes without discrimination. It is rumored that her one regret is never marrying, but don\'t bring this up on her presence without proper havoc-resistant armor.</string>
+    <string name="shiki_story">A swordsman who wielded a katana, a blade crafted by master smiths of times gone by. The bushido skills employed by warriors like Shiki used were as efficient, if not more so, than the modern swordfighting techniques seen today. Their quick, adaptable fighting style made them experts at crippling their foes. When Shiki still lived, people began regarding katanas as outdated weapons. In the end, Shiki chose to follow the lord he had loyally served into the afterlife by honorably ending his own life.</string>
+    <string name="skaha_story">In the time before dragons were enemies to her species, the Skaha was notorious as the warrior who dominates the sky. However, as humans encroached on the dragons\' territory and eventually declared war on all monsters, her clan faded into obscurity. Skaha was last seen living peacefully with her faithful partner.</string>
+    <string name="terra_story">A woman who appears in tales from another world, where she played a role in the great conflict between humankind and espers. She was born possessing magic; the child of a union between an esper and a human woman. After being controlled by the Gestahlian Empire for most of her life, she finds herself nearly robbed of emotion. She tries to serve as a bridge between espers and human, but cannot quell the anxiety she feels at being unable to understand the "love" that other people experience. Only after the world is destroyed and it falls to her to care for the orphans left behind destruction does she begin to understand what love is.</string>
+    <string name="tronn_story">A black mage who conducted magical research in an enchanted forest. Tronn shunned humans in favor of his research, which drew him closer to the dark side of magic, to which the ultimately lost his life. His uncompromising thirst for arcane knowledge lives on as a vision which can finally control the dark powers he so coveted while still alive.</string>
+    <string name="vaan_story">A young man who appears in tales of Ivalice, a world foreign to this one. After meeting the princess of his fallen homeland, he began a journey to Dalmasca of its occupiers. It took a long time for him to accept the death of his brother, who was painted as a traitor after dying in service to their homeland. But by coming to know Basche, a knight also entangled in the plots surrounding his brother, and making a connection with Ashe, who has similarly lost so many she loved, he finally learns to move onward to the future.</string>
+    <string name="vivi_story">A young black mage from the distant world of Gaia. He lived each day with no knowledge of who he truly was, until, while journeying with Zidane and his friends, he came to learn that he was an artificial being designed by the kingdom of Alexdandria as a weapon. Though his confidence falters after finding out that he is an instrument of destruction that will one day "stop", though his encounters with his companions and fellow black mages, he finds the courage to face the devastating truth about his identity.</string>
+    <string name="wedge_story">A soldier of the Gestahlian Empire who appears in a tale of humans and espers, told in a distant world. Together with his comrade Biggs and the mysterious girl Terra, he is sent on a mission to retrieve a frozen esper from the remote mining town of Narshe. Wielding magic and Magitek, they make swift work of their opposition and arrive at the resting place of the esper Valigarmanda, only to be bathed in unholy light and whisked away, never to be seen again.</string>
+    <string name="xiao_story">A genius martial artist who mastered the techniques of her people at a young age and used them in the defense of the weak and defenseless. Through her cheerful, likeable demeanor, she almost singlehandedly reversed years of prejudice against the martial arts. Though her tribe has died off, those who inherited her legacy and techniques are held in high regard to this day.</string>
+    <string name="zidane_story">A young man who appears in tales of Gaia, a world foreign to this one. On a quest to help Princess Garnet of Alexandria save her kingdom, he learns of the existence of Terra, a foreign planet trying to take over Gaia and replace its people. Confronted with the knowledge that he is not, in fact, human, but a tool create by Terrans to take over Gaia, he is overwhelmed by a self-destructive despair. But the friends and allies who have traveled with him so long draw him from his shell and help him to accept himself as he is, lending him the courage he needs to fight his fate.</string>
+
+
+
+
+
+    <string name="tm_info_regen">Heal (400HP, 2x) for 3 turns to one ally</string>
+    <string name="tm_info_drain">Magic damage (0.8x) with HP drain (30%) to one enemy</string>
+    <string name="tm_info_equipbow">Allow use of bows</string>
+    <string name="tm_info_doublehand">Increase equipment ATK (50%) when single wielding sword, katana, axe, or hammer</string>
+    <string name="tm_info_store">Physical damage (+0.8x per usage, 1.6x max) to one enemy and increase damage taken (50%) to caster</string>
+    <string name="tm_info_thundagablade">Lightning hybrid damage (1.8x) to one enemy</string>
+    <string name="tm_info_blizzardbeam">Ice magic damage (1.2x) to one enemy</string>
+    <string name="tm_info_sunbeam">Magic damage (1.2x) and blind (30%) to all enemies</string>
+    <string name="tm_info_excalibur">Weapon (Great Sword) Atk+120 Element: Light</string>
+    <string name="tm_info_minervabustier">Armor (Clothes) DEF+47 SPR+45 Resistance: Fire (+30) Ice (+30) Lightning (+30) Wind (+30)</string>
+    <string name="tm_info_miracleshoes">Accessory: Auto-Protect, Auto-Shell, Auto-Regen</string>
+    <string name="tm_info_blademastery">Increase ATK (+50%) when equipped with a katana</string>
+    <string name="tm_info_autolimit">Increase LB gauge (1) each turn</string>
+    <string name="tm_info_cover">Chance to take physical damage for ally (5%)</string>
+    <string name="tm_info_evade">Chance to negate physical damage taken (10%)</string>
+    <string name="tm_info_biogablade">Dark hybrid damage (1.8x) and poison (40%) to one enemy</string>
+    <string name="tm_info_machinekiller">Increase damage against mechanical monsters (50%)</string>
+    <string name="tm_info_pilfer">Steal gil from one enemy</string>
+    <string name="tm_info_holy">Light magic damage (2.3x) to one enemy</string>
+    <string name="tm_info_equipharmor">Allow use of heavy armors</string>
+    <string name="tm_info_cleanse">Cure disease to one ally</string>
+    <string name="tm_info_comet">Magic damage (1.6x) with consecutive damage increase (0.1x) to one enemy</string>
+    <string name="tm_info_equiplsword">Allow use of great swords</string>
+    <string name="tm_info_dreamharp">Weapon (Harp) ATK+76, MAG+41 Sleep (40%)</string>
+    <string name="tm_info_aim">Physical damage (1.2x) to one enemy</string>
+    <string name="tm_info_meteor">Magic damage (2.5x) with ignore SPR (25%) to all enemies</string>
+    <string name="tm_info_blackcowl">Armor (Hat) ATK+28, DEF+25, SPR+25 Sleep (Null)</string>
+    <string name="tm_info_gungnir">Weapon (Spear) ATK+90</string>
+    <string name="tm_info_ribbon">MAG+5, SPR+5 Nullify all status ailments</string>
+    <string name="tm_info_ragingfist">Physical damage (1.2x) with ignore DEF (25%) to one enemy</string>
+    <string name="tm_info_stonekiller">Increase damage against stone monsters (50%)</string>
+    <string name="tm_info_thundaga">Lightning magic damage (1.8x) to all enemies</string>
+    <string name="tm_info_flare">Magic damage (2.3x) and decrease water resistance (30%) for 3 turns to one enemy</string>
+    <string name="tm_info_banish">Light magic damage (1.2x) to one enemy</string>
+    <string name="tm_info_aegisshield">Armor (Heavy Shield) DEF+53, SPR+25 Petrify (Null)</string>
+    <string name="tm_info_lullaby">Sleep (30%) to all enemies</string>
+    <string name="tm_info_risingsun">Weapon (Throwing) ATK+107 Additional effect: Bird Killer</string>
+    <string name="tm_info_barrage">Four physical damage (3.2x) to random enemies</string>
+    <string name="tm_info_esuna">Cure all status effects to one ally</string>
+    <string name="tm_info_powershot">Physical damage (1.2x) to one enemy</string>
+    <string name="tm_info_growthegg">Experience up (1.5x)</string>
+    <string name="tm_info_drink">Allow use of drinkable items</string>
+    <string name="tm_info_sakurafubuki">Weapon (Katana) ATK+98</string>
+    <string name="tm_info_deprotect">Decrease DEF (20%) for 3 turns to one enemy</string>
+    <string name="tm_info_camouflage">Decrease likeliness of being targeted (50%)</string>
+    <string name="tm_info_aquankiller">Increase damage against aquatic monsters (50%)</string>
+    <string name="tm_info_escape">Escape battle</string>
+    <string name="tm_info_stonra">Earth magic damage (1.4x) to all enemies</string>
+    <string name="tm_info_equipssword">Allow use of daggers</string>
+    <string name="tm_info_holyblade">Light hybrid damage (2.3x) to one enemy</string>
+    <string name="tm_info_hp10">HP +10%</string>
+    <string name="tm_info_drainblade">Hybrid damage (1.4x) and physical damage (0.8x) with HP drain (30%) to one enemy</string>
+    <string name="tm_info_equipstaff">Allow use of staves</string>
+    <string name="tm_info_bladeblitz">Physical damage (1.4x) to all enemies</string>
+    <string name="tm_info_blizzaga">Ice magic damage (1.8x) to all enemies</string>
+    <string name="tm_info_counter">Counter physical attacks (30%)</string>
+    <string name="tm_info_paean">Heal while singing for 3 turns to all allies</string>
+    <string name="tm_info_silencedance">Silence (30%) to all enemies</string>
+    <string name="tm_info_throw">Allow use of throwable items</string>
+    <string name="tm_info_mag30">MAG +30%</string>
+    <string name="tm_info_tranquility">Physical damage (1.2x) to one enemy</string>
+    <string name="tm_info_dragonkiller">Increase damage against dragons (50%)</string>
+    <string name="tm_info_ultima">Magic damage (2.8x) with ignore SPR (25%) to all enemies</string>
+    <string name="tm_info_fira">Fire magic damage (1.4x) to all enemies</string>
+    <string name="tm_info_maximillian">Armor (Heavy Armor) DEF+62</string>
+    <string name="tm_info_firaga">Fire magic damage (1.8x) to all enemies</string>
+    <string name="tm_info_firebeam">Fire magic damage (1.2x) to one enemy</string>
+    <string name="tm_info_kaiserknuckles">Weapon (Fist) ATK+101 Element: Wind</string>
+    <string name="tm_info_dualwield">Allow use of weapons in both hands, except bows and harps</string>
+
+
+
+
+    <string-array name="character_origin">
+        <item>ANY</item>
+        <item>FF BE</item>
+        <item>FF 1</item>
+        <item>FF 2</item>
+        <item>FF 3</item>
+        <item>FF 4</item>
+        <item>FF 5</item>
+        <item>FF 6</item>
+        <item>FF 9</item>
+        <item>FF 11</item>
+        <item>FF 12</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+    <string-array name="character_role">
+        <item>ANY</item>
+        <item>Healing</item>
+        <item>Hybrid Damage</item>
+        <item>Magic Damage</item>
+        <item>Physical Damage</item>
+        <item>Support</item>
+        <item>Tank</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+    <string-array name="character_gender">
+        <item>ANY</item>
+        <item>Female</item>
+        <item>Male</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+    <string-array name="character_max_rarity">
+        <item>ANY</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+    <string-array name="character_race">
+        <item>ANY</item>
+        <item>Angel</item>
+        <item>Black Mage</item>
+        <item>Dwarf</item>
+        <item>Human</item>
+        <item>Reaper</item>
+        <item>TaruTaru</item>
+        <item>Viera</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+    <string-array name="character_job">
+        <item>ANY</item>
+        <item>Adventurer</item>
+        <item>Alchemist</item>
+        <item>Archmage</item>
+        <item>Assassin</item>
+        <item>Bandit</item>
+        <item>Bard</item>
+        <item>Black Mage</item>
+        <item>Blackbelt</item>
+        <item>Chaos Knight</item>
+        <item>Dancer</item>
+        <item>Dark Mage</item>
+        <item>Dragoon</item>
+        <item>General</item>
+        <item>Gladiator</item>
+        <item>Green Mage</item>
+        <item>Gunner</item>
+        <item>High Priest</item>
+        <item>Imperial</item>
+        <item>Knight</item>
+        <item>Machinist</item>
+        <item>Mage</item>
+        <item>Magic Warrior</item>
+        <item>Monk</item>
+        <item>Ninja</item>
+        <item>Paladin</item>
+        <item>Ranger</item>
+        <item>Ravager</item>
+        <item>Red Mage</item>
+        <item>Rune Knight</item>
+        <item>Samurai</item>
+        <item>Sky Pirate</item>
+        <item>Songstress</item>
+        <item>Spellblade</item>
+        <item>Summoner</item>
+        <item>Thief</item>
+        <item>Viking</item>
+        <item>Warmage</item>
+        <item>Warrior</item>
+        <item>White Mage</item>
+<!--    <item>OFF</item>   -->
+    </string-array>
+
+
+</resources>
