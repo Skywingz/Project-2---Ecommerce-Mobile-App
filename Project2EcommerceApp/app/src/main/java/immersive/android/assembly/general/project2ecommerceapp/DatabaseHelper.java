@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -292,6 +293,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     public ArrayList<Hero> getAllHeroes() {
+
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = null;
         ArrayList<Hero> heroes = new ArrayList<>();
@@ -314,11 +316,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
         cursor.close();
-        db.close();
+//        db.close();
         return heroes;
     }
 
     public ArrayList<Hero> getAllShoppingCartHeroes() {
+
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = null;
         ArrayList<Hero> heroes = new ArrayList<>();
@@ -346,7 +349,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
         cursor.close();
-        db.close();
+//        db.close();
         return heroes;
     }
 
@@ -465,7 +468,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
         cursor.close();
-        db.close();
+//        db.close();
         return total;
     }
 
@@ -491,7 +494,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
         cursor.close();
-        db.close();
+//        db.close();
         return String.format("%.2f", totalCost);
     }
 

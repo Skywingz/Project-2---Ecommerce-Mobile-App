@@ -1,5 +1,6 @@
 package immersive.android.assembly.general.project2ecommerceapp;
 
+import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
 import android.app.SearchManager;
 import android.content.ComponentName;
@@ -54,27 +55,6 @@ public class MainActivity extends AppCompatActivity implements MainShopRecyclerA
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         handleIntent(getIntent());
-
-
-
-//        String[] heroRarity = {"3.0f", "4.0f", "5.0f", "5.0f", "2.0f", "4.0f", "3.0f", "3.0f", "5.0f", "5.0f",
-//                "5.0f", "5.0f", "5.0f", "4.0f", "4.0f", "5.0f", "4.0f", "2.0f", "5.0f", "5.0f",
-//                "5.0f", "4.0f", "4.0f", "5.0f", "5.0f", "2.0f", "5.0f", "5.0f", "4.0f", "5.0f",
-//                "3.0f", "3.0f", "4.0f", "5.0f", "5.0f", "2.0f", "5.0f", "2.0f", "5.0f", "4.0f",
-//                "4.0f", "4.0f", "2.0f", "5.0f", "3.0f", "5.0f", "3.0f", "3.0f", "3.0f", "3.0f",
-//                "3.0f", "4.0f", "5.0f", "5.0f", "2.0f", "3.0f", "5.0f", "4.0f", "4.0f", "4.0f",
-//                "3.0f", "2.0f", "4.0f", "4.0f", "3.0f", "3.0f", "5.0f", "2.0f", "5.0f", "4.0f",
-//                "3.0f", "5.0f", "5.0f"};
-
-
-//        int[] heroIDs = {, , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , , , , , , , , ,
-//                , , };
 
         getSupportFragmentManager().beginTransaction().add(R.id.main_activity_container, MainShopFragment.getInstance(this, this, this), "main_fragment_tag").commit();
 

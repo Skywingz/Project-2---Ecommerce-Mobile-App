@@ -15,6 +15,7 @@ public class MainShopRecyclerViewHolder extends RecyclerView.ViewHolder {
     public ImageView icon, star1, star2, star3, star4, star5;
     public TextView price, name, origin, buy, added;
     public CardView card;
+    public int position;
 
 
     public MainShopRecyclerViewHolder(View view) {

@@ -2,6 +2,8 @@ package immersive.android.assembly.general.project2ecommerceapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.AsyncTask;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -25,12 +27,28 @@ public class HeroManager {
 
     private static HeroManager instance;
 
-    private HeroManager(Context context) {
+    private HeroManager(final Context context) {
         this.context = context;
-        heroes = DatabaseHelper.getInstance(this.context).getAllHeroes();
-        reviews = new ArrayList<>();
+
+        heroes = new ArrayList<Hero>();
+
+        AsyncTask<Context, Void, ArrayList<Hero>> task1 = new AsyncTask<Context, Void, ArrayList<Hero>>() {
+            @Override
+            protected ArrayList<Hero> doInBackground(Context... contexts) {
+                return DatabaseHelper.getInstance(contexts[0]).getAllHeroes();}
+            @Override
+            protected void onPostExecute(ArrayList<Hero> heros) {
+                Log.d("AsyncTask", "RETRIEVING HEROES " + (heros.size()));
+                heroes = heros;
+                Log.d("AsyncTask", "HEROES SIZE = " + (heroes.size()));}
+        };
+        task1.execute(this.context);
+
+//        heroes = DatabaseHelper.getInstance(this.context).getAllHeroes();
         shoppingCartHeroes = DatabaseHelper.getInstance(this.context).getAllShoppingCartHeroes();
 
+
+        reviews = new ArrayList<>();
         sortByName = true;
         sortAsc = true;
         originIndex = "ANY";
@@ -221,28 +239,15 @@ public class HeroManager {
 
     }
 
+    public void forceRecyclerViewRefresh(String heroName) {
+        for (Hero hero : heroes) {
+            if (hero.getName().equals(heroName)) {
+                hero.setName(hero.getName() + "");
+                break;
+            }
+        }
+    }
 
-
-
-
-
-
-
-//    private static class SortByName implements Comparator<Hero> {
-//        @Override
-//        public int compare(Hero one, Hero two) {
-//            // Sort Names Alphabetically
-//            return one.getName().compareTo(two.getName());
-//        }
-//    }
-//
-//    private static class SortByPrice implements Comparator<Hero> {
-//        @Override
-//        public int compare(Hero one, Hero two) {
-//            // Sort Price Ascending
-//            return Double.compare(Double.parseDouble(two.getPrice()), Double.parseDouble(one.getPrice()));
-//        }
-//    }
 
 
 

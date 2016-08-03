@@ -42,6 +42,7 @@ public class MainShopRecyclerAdapter extends RecyclerView.Adapter<MainShopRecycl
     @Override
     public void onBindViewHolder(MainShopRecyclerViewHolder holder, int position) {
         final Hero hero = heroes.get(position);
+        holder.position = position;
         holder.name.setText(hero.getName());
         String heroOrigin = "(" + hero.getOrigin() + ")";
         holder.origin.setText(heroOrigin);

@@ -12,7 +12,7 @@ import android.view.View;
 /**
  * Created by Skywingz on 7/28/16.
  */
-public class DetailPagerAdapter extends FragmentPagerAdapter {
+public class DetailPagerAdapter extends FragmentStatePagerAdapter {
 
     private int pageCount;
     private String heroName;
