@@ -30,21 +30,21 @@ public class HeroManager {
     private HeroManager(final Context context) {
         this.context = context;
 
-        heroes = new ArrayList<Hero>();
+//        heroes = new ArrayList<Hero>();
+//
+//        AsyncTask<Context, Void, ArrayList<Hero>> task1 = new AsyncTask<Context, Void, ArrayList<Hero>>() {
+//            @Override
+//            protected ArrayList<Hero> doInBackground(Context... contexts) {
+//                return DatabaseHelper.getInstance(contexts[0]).getAllHeroes();}
+//            @Override
+//            protected void onPostExecute(ArrayList<Hero> heros) {
+//                Log.d("AsyncTask", "RETRIEVING HEROES " + (heros.size()));
+//                heroes = heros;
+//                Log.d("AsyncTask", "HEROES SIZE = " + (heroes.size()));}
+//        };
+//        task1.execute(this.context);
 
-        AsyncTask<Context, Void, ArrayList<Hero>> task1 = new AsyncTask<Context, Void, ArrayList<Hero>>() {
-            @Override
-            protected ArrayList<Hero> doInBackground(Context... contexts) {
-                return DatabaseHelper.getInstance(contexts[0]).getAllHeroes();}
-            @Override
-            protected void onPostExecute(ArrayList<Hero> heros) {
-                Log.d("AsyncTask", "RETRIEVING HEROES " + (heros.size()));
-                heroes = heros;
-                Log.d("AsyncTask", "HEROES SIZE = " + (heroes.size()));}
-        };
-        task1.execute(this.context);
-
-//        heroes = DatabaseHelper.getInstance(this.context).getAllHeroes();
+        heroes = DatabaseHelper.getInstance(this.context).getAllHeroes();
         shoppingCartHeroes = DatabaseHelper.getInstance(this.context).getAllShoppingCartHeroes();
 
 

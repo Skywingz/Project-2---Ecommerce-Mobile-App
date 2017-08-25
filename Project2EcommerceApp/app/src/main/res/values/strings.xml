@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">Project2EcommerceApp</string>
+    <string name="search_hint">Search by name</string>
 
     <string name="anastasis_story">A holy man from the distant world of Ivalice. When visited by Ashe, a princess of Dalmasca, a land since ruthlessly conquered by the Archadian Empire, who now seeks the power to rebuild her former kingdom, he perceives the desire for revenge in her heart and issues a stern warning. It is said that it is he who once imprisoned the great wyrm Fafnir.</string>
     <string name="anzelm_story">A warrior versed in both magic and swordplay, Anzelm\'s dual talents allowed him to fight effectively on his own, which is perhaps one reason why he chose to spend his life as a wanderer, free of attachments. He was considered a hero by the people he had saved, though he was too humble to care for such titles. Today, his vision fights as he once did, unfettered by obligation or convention.</string>
