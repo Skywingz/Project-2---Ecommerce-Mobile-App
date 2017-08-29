@@ -1,6 +1,6 @@
 ## Intro
 
-A fake Ecommerce app that sells characters from the Final Fantasy: Brave Exvius mobile game. Note: current list of characters may not be up to date with the latest game version.
+A fake Ecommerce app that sells characters from the Final Fantasy: Brave Exvius mobile game. Note: current list of characters may not be up to date with the latest game version. I do not own any of the images, they are all properties of Square Enix.
 
 ## Instructions for Use:
 
