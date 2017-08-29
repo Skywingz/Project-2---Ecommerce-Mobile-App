@@ -1,8 +1,6 @@
 package immersive.android.assembly.general.project2ecommerceapp;
 
-/**
- * Created by Skywingz on 7/26/16.
- */
+
 public class Review {
 
     private int id;

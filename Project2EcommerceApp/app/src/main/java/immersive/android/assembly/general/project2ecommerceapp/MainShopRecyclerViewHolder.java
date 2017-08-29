@@ -7,9 +7,7 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-/**
- * Created by Skywingz on 7/27/16.
- */
+
 public class MainShopRecyclerViewHolder extends RecyclerView.ViewHolder {
 
     public ImageView icon, star1, star2, star3, star4, star5;

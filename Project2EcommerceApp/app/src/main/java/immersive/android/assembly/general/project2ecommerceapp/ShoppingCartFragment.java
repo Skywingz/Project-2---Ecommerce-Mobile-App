@@ -16,9 +16,7 @@ import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/28/16.
- */
+
 public class ShoppingCartFragment extends Fragment {
 
 

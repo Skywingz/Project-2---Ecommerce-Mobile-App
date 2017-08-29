@@ -6,9 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by Skywingz on 7/28/16.
- */
+
 public class ShoppingCartRecyclerViewHolder extends RecyclerView.ViewHolder {
 
     public ImageView icon, minus, plus, star1, star2, star3, star4, star5;

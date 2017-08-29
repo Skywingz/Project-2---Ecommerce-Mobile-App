@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/28/16.
- */
+
 public class ShoppingCartRecyclerAdapter extends RecyclerView.Adapter<ShoppingCartRecyclerViewHolder> {
 
     private ArrayList<Hero> heroes;

@@ -1,39 +1,22 @@
 package immersive.android.assembly.general.project2ecommerceapp;
 
-import android.app.SearchManager;
-import android.content.ComponentName;
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.NestedScrollView;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
-import android.support.v7.widget.helper.ItemTouchHelper;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-/**
- * Created by Skywingz on 7/27/16.
- */
+
 public class MainShopFragment extends Fragment {
 
     private RecyclerView recycler;
@@ -94,7 +77,6 @@ public class MainShopFragment extends Fragment {
         sortByAscBack = (TextView) rootView.findViewById(R.id.sortbyAscBackground);
         sortByDescBack = (TextView) rootView.findViewById(R.id.sortbyDescBackground);
         filterAll = (TextView) rootView.findViewById(R.id.filterAll);
-//        filterNone = (TextView) rootView.findViewById(R.id.filterNone);
 
         origin = (Spinner) rootView.findViewById(R.id.originSpinner);
         job = (Spinner) rootView.findViewById(R.id.jobSpinner);
@@ -130,7 +112,6 @@ public class MainShopFragment extends Fragment {
         filter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                fragmentClickListener.onShopButtonsClicked(view);
                 if (mBottomSheetBehavior.getState() == BottomSheetBehavior.STATE_HIDDEN
                         || mBottomSheetBehavior.getState() == BottomSheetBehavior.STATE_COLLAPSED) {
                     mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
@@ -195,8 +176,6 @@ public class MainShopFragment extends Fragment {
         filterAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                fragmentClickListener.onShopButtonsClicked(view);
-
                 origin.setSelection(0);
                 job.setSelection(0);
                 role.setSelection(0);
@@ -207,12 +186,6 @@ public class MainShopFragment extends Fragment {
             }
         });
 
-//        filterNone.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                fragmentClickListener.onShopButtonsClicked(view);
-//            }
-//        });
 
         totalCost.setText(HeroManager.getInstance(getActivity()).getTotalCost());
         totalItems.setText(String.valueOf(HeroManager.getInstance(getActivity()).getTotalItems()));

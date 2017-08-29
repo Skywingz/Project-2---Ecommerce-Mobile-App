@@ -7,9 +7,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-/**
- * Created by Skywingz on 7/29/16.
- */
+
 public class ReviewRecyclerViewHolder extends RecyclerView.ViewHolder {
 
     TextView userName, comment;

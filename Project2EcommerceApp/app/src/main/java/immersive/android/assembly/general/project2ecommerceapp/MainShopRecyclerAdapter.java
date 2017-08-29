@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/27/16.
- */
+
 public class MainShopRecyclerAdapter extends RecyclerView.Adapter<MainShopRecyclerViewHolder> {
 
     private ArrayList<Hero> heroes;

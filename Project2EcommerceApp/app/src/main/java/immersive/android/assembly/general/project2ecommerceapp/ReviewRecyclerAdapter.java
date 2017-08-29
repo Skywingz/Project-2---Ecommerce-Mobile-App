@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/29/16.
- */
+
 public class ReviewRecyclerAdapter extends RecyclerView.Adapter<ReviewRecyclerViewHolder> {
 
     private ArrayList<Review> reviews;
